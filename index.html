@@ -94,6 +94,27 @@
                 border-radius: 10px;
             }
 
+            .grid-item {
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            }
+
+            .grid-item:hover {
+             transform: translateY(-5px);
+            }
+
+            .grid-item h3 {
+             margin-top: 15px;
+             color: var(--farm-green);
+            }
+
+            .grid-item p {
+            font-size: 0.95rem;
+            }
+
             /* Smaller Yoghurt Image Size */
             .value-add-content { display: flex; align-items: center; gap: 30px; flex-wrap: wrap; }
             .yoghurt-thumb { width: 280px; max-width: 100%; border-radius: 12px; object-fit: contain; }
@@ -133,6 +154,7 @@
                         <li><a href="#livestock">Livestock</a></li>
                         <li><a href="#aquaculture">Aquaculture</a></li>
                         <li><a href="#marketplace">Marketplace</a></li>
+                        <li><a href="#Organic_Value">Organic Value</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -150,7 +172,7 @@
             <section id="about" class="card">
                 <h2>About Us</h2>
                 <p>We are passionate about organic farming and sustainable food production. Our farm operates in a rural environment that allows us to grow and rear our products naturally and responsibly. We aim to promote community nutrition awareness and provide high-quality organic products you can trust.</p>
-                <img src="green.jpg" class="img-full" alt="Farm Landscape">
+                <img src="greeen.jpeg" class="img-full" alt="Farm Landscape">
             </section>
 
             <section id="livestock" class="card">
@@ -165,7 +187,7 @@
                         <p><strong>Poultry:</strong> Healthy, farm-raised chickens and fresh eggs.</p>
                     </div>
                     <div class="grid-item">
-                        <img src="rabbit.jpg" alt="Rabbits">
+                        <img src="rabbit.jpeg" alt="Rabbits">
                         <p><strong>Rabbit Farming:</strong> Utilizing rabbit manure and urine as organic fertilizer.</p>
                     </div>
                 </div>
@@ -191,10 +213,10 @@
                         </ul>
                     </div>
                 </div>
-                <img src="aquaculture.webp" class="img-full" alt="Fish Ponds">
+                <!-- <img src="aquaculture.webp" class="img-full small-img" alt="Fish Ponds"> -->
             </section>
 
-            <section id="product" class="card">
+            <!-- <section id="product" class="card">
                 <h2>Value Addition</h2>
                 <div class="value-add-content">
                     <img src="package.jpg" class="yoghurt-thumb" alt="Yoghurt Product">
@@ -206,7 +228,81 @@
                         </ul>
                     </div>
                 </div>
-            </section>
+            </section> -->
+
+    <section id="Organic_Value" class="card">
+
+    <h2>Organic Value-Added Products</h2>
+
+    <p style="font-style: italic; color: var(--farm-green); margin-bottom: 25px;">
+        Farm to Shower Goodness — Naturally crafted skincare and wellness products
+        made from fresh goat milk and certified organic ingredients.
+    </p>
+
+    <div class="grid-row">
+
+        <!-- Product 1 -->
+        <div class="grid-item">
+            <img src="shower-gel.jpg" alt="Sally Anne's Shower Gel">
+            <h3>Sally Anne's Shower Gel</h3>
+            <p>
+                Made with certified organic ingredients, completely free from harsh detergents,
+                offering gentle exfoliation, naturally softening the skin for a radiant glow.
+            </p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="grid-item">
+            <img src="facial-cream.jpg" alt="Facial Cream">
+            <h3>Goat Milk Facial Cream</h3>
+            <p>
+                Deeply moisturizing facial cream enriched with goat milk to nourish,
+                smoothen, and rejuvenate the skin naturally.
+            </p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="grid-item">
+            <img src="lip-balm.jpg" alt="Lip Balm">
+            <h3>Natural Lip Balm</h3>
+            <p>
+                Softening and protective lip care made from natural organic ingredients
+                for smooth and healthy lips.
+            </p>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="grid-item">
+            <img src="handwash.jpg" alt="Hand Wash">
+            <h3>Organic Hand Wash</h3>
+            <p>
+                Gentle cleansing hand wash formulated to clean effectively while
+                keeping the skin soft and hydrated.
+            </p>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="grid-item">
+            <img src="hand_bag.jpg" alt="Hand bag">
+            <h3>Hand bags and other products</h3>
+            <p>
+               For carrying the products
+            </p>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="grid-item">
+            <img src="more_p.jpg" alt="">
+            <h3>More Products</h3>
+            <!-- <p>
+                Creamy, nutritious, and naturally rich in probiotics for healthy living.
+            </p> -->
+        </div>
+
+    </div>
+
+</section>
+
 
             <section class="card" style="background: rgba(139, 195, 74, 0.05);">
                 <h2>Our Commitment</h2>
